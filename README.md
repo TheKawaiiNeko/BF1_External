@@ -1,5 +1,6 @@
 # Battlefield1_External
 ありとあらゆるところからペーストし、すぐに完成したものです。  
+Old version : https://github.com/TheKawaiiNeko/Battlefield1_ShitExternalESP
 
 ## 仕様
 * ポインタ暗号化の影響で、LocalPlayerの取得にアカウントの名前を必要とします。
