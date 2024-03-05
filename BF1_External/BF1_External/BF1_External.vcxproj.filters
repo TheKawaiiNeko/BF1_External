@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{fb051c89-c44c-4fe4-8361-f919ad3b8329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{581f27cd-206b-46d7-aa4b-7ce5ccb19a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{efce8f55-7ef3-41f8-9766-dbf822545461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d7affb16-f9e3-41c8-91d8-5f843d5ab43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Memory">
+      <UniqueIdentifier>{846b1f46-5348-48f6-bb83-34647a6af430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\SimpleMath">
+      <UniqueIdentifier>{a9415826-d25e-4489-9acf-30f3faf6670e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\SDK">
+      <UniqueIdentifier>{8016a977-eecd-4219-bc42-56276c7013f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Config">
+      <UniqueIdentifier>{418794d9-8a9b-413d-8062-6c3f143846ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\SDK\SDK.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Cheat.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Memory\Memory.h">
+      <Filter>Utils\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\SimpleMath\SimpleMath.h">
+      <Filter>Utils\SimpleMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Overlay.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Config\Config.h">
+      <Filter>Utils\Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\SDK\SDK.cpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Cheat.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Render.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Memory\Memory.cpp">
+      <Filter>Utils\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Overlay.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Config\Config.cpp">
+      <Filter>Utils\Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Utils\SimpleMath\SimpleMath.inl">
+      <Filter>Utils\SimpleMath</Filter>
+    </None>
+  </ItemGroup>
+</Project>
