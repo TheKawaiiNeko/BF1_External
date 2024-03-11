@@ -1,7 +1,7 @@
 #pragma once
 #include <Windows.h>
 
-// İ’è‚Ì•Û‘¶‚â“Ç‚İ‚İ
+// è¨­å®šã®ä¿å­˜ã‚„èª­ã¿è¾¼ã¿
 class ConfigManager
 {
 private:
@@ -10,12 +10,12 @@ public:
     // Removed
 };
 
-// –ù‰õ‚È’‡ŠÔ‚½‚¿
+// æ„‰å¿«ãªä»²é–“ãŸã¡
 struct cfg
 {
     // System
     bool Run = false;
-    int MenuKey = VK_END;
+    int MenuKey = VK_INSERT;
     RECT GameSize;
     POINT GamePoint;
 
