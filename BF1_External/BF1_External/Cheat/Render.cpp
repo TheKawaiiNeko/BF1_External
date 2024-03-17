@@ -79,7 +79,7 @@ void Cheat::RenderMenu()
             ImGui::NewLine();
             ImGui::NewLine();
 
-            // KeyBinder - サンプルとして残しておきます。
+            // KeyBinder - 繧ｵ繝ｳ繝励Ν縺ｨ縺励※谿九＠縺ｦ縺翫″縺ｾ縺吶�
             ImGui::Text("  KeyBind");
             ImGui::Separator();
             ImGui::Spacing();
@@ -257,13 +257,10 @@ void Cheat::RenderESP()
 
         pEntity->Update();
 
-        // GetPlayerName and LocalPlayer
-        char name[15];
+        char name[32];
         ReadProcessMemory(m.pHandle, (void*)(pEntity->ClientPlayer + offset::PlayerName), &name, sizeof(name), nullptr);
-
-        std::string pName = name;
-
-        if (pName.find(LocalName) != std::string::basic_string::npos)
+        
+        if (strcmp(name, LocalName) == 0)
         {
             local = ent;
             continue;
@@ -291,7 +288,7 @@ void Cheat::RenderESP()
         {
             ImColor color = pEntity->IsVisible() ? Col_ESP_Visible : Col_ESP_Normal;
 
-            // Box and more用
+            // Box and more逕ｨ
             Vector3 BoxTop = pEntity->Position + pEntity->GetAABB().Max;
             Vector3 BoxBottom = pEntity->Position + pEntity->GetAABB().Min;
             Vector2 vTop, vBtm;
