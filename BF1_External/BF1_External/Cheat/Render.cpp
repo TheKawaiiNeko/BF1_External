@@ -257,7 +257,7 @@ void Cheat::RenderESP()
 
         pEntity->Update();
 
-        char name[32];
+        char name[128];
         ReadProcessMemory(m.pHandle, (void*)(pEntity->ClientPlayer + offset::PlayerName), &name, sizeof(name), nullptr);
         
         if (strcmp(name, LocalName) == 0)
